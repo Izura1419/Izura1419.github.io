@@ -1,0 +1,592 @@
+html{
+	margin: 0;
+
+	font-family: helvetica, sans-serif;
+	
+
+	background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+
+	min-height: 100vh;
+
+	overflow: hidden;
+}
+.container{
+	position: absolute;
+	display: inline-block;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	width: 35vw;
+	height: 70vh;
+
+	border: 0.4vw solid white;
+	border-radius: 50%;
+
+	text-align: center;
+	font-size: 32px;
+
+	padding-top: 5vh;
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+	.container{
+		width: 42vw;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+	.container{
+		width: 43vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 960px) and (max-width: 1000px){
+	.container{
+		width: 48vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 900px) and (max-width: 960px){
+	.container{
+		width: 50vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 880px) and (max-width: 900px){
+	.container{
+		width: 55vw;
+		height: 73vh;
+	}
+}
+
+@media (min-width: 840px) and (max-width: 880px){
+	.container{
+		width: 55vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 800px) and (max-width: 840px){
+	.container{
+		width: 57vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 750px) and (max-width: 800px){
+	.container{
+		width: 60vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 700px) and (max-width: 750px){
+	.container{
+		width: 65vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 650px) and (max-width: 700px){
+	.container{
+		width: 70vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 625px) and (max-width: 650px){
+	.container{
+		width: 73vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 600px) and (max-width: 625px){
+	.container{
+		width: 75vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 560px) and (max-width: 600px){
+	.container{
+		width: 80vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 525px) and (max-width: 560px){
+	.container{
+		width: 85vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 500px) and (max-width: 525px){
+	.container{
+		width: 90vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 480px) and (max-width: 500px){
+	.container{
+		width: 95vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 450px) and (max-width: 480px){
+	.container{
+		width: 100vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 400px) and (max-width: 450px){
+	.container{
+		width: 105vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 380px) and (max-width: 400px){
+	.container{
+		width: 100vw;
+		height: 70vh;
+	}
+}
+@media (min-width: 0px) and (max-width: 380px){
+	.container{
+		width: 100vw;
+		height: 70vh;
+
+		border: 0.7vw solid white;
+	}
+}
+.reg{
+	color: rgba(255,255,255);
+}
+h4{
+	font-size: 18px;
+	color: rgba(255,255,255,0.8);
+}
+.years{
+	position: relative;
+	top: 14vh;
+
+	font-size: 14px;
+	color: rgba(255,255,255,0.6);
+}
+input{
+	width: 21vw;
+	height: 5vh;
+
+	padding-left: 1vw;
+
+	font-size: 20px;
+
+	margin-bottom: 1.5vh;
+
+	border: none;
+	border-radius: 15px;
+
+	background-color: rgba(255,255,255,0.5);
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+	input{
+		width: 31vw;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+	input{
+		width: 31vw;
+		height: 5vh;
+	}
+}
+@media (min-width: 960px) and (max-width: 1000px){
+	input{
+		width: 31vw;
+		height: 5vh;
+	}
+}
+@media (min-width: 900px) and (max-width: 960px){
+	input{
+		width: 31vw;
+		height: 5vh;
+	}
+}
+@media (min-width: 880px) and (max-width: 900px){
+	input{
+		width: 31vw;
+		height: 5vh;
+	}
+}
+@media (min-width: 800px) and (max-width: 880px){
+	input{
+		width: 31vw;
+	}
+}
+@media (min-width: 750px) and (max-width: 800px){
+	input{
+		width: 31vw;
+	}
+}
+@media (min-width: 700px) and (max-width: 750px){
+	input{
+		width: 41vw;
+	}
+}
+@media (min-width: 650px) and (max-width: 700px){
+	input{
+		width: 41vw;
+	}
+}
+@media (min-width: 600px) and (max-width: 650px){
+	input{
+		width: 41vw;
+	}
+}
+@media (min-width: 560px) and (max-width: 600px){
+	input{
+		width: 51vw;
+	}
+}
+@media (min-width: 500px) and (max-width: 560px){
+	input{
+		width: 51vw;
+	}
+}
+@media (min-width: 480px) and (max-width: 500px){
+	input{
+		width: 51vw;
+	}
+}
+@media (min-width: 450px) and (max-width: 480px){
+	input{
+		width: 51vw;
+	}
+}
+@media (min-width: 420px) and (max-width: 450px){
+	input{
+		width: 51vw;
+	}
+}
+@media (min-width: 380px) and (max-width: 420px){
+	input{
+		width: 61vw;
+	}
+}
+@media (min-width: 340px) and (max-width: 380px){
+	input{
+		width: 61vw;
+	}
+}
+@media (min-width: 0px) and (max-width: 340px){
+	input{
+		width: 61vw;
+	}
+}
+
+
+.warn{
+	display: none;
+
+	color: rgb(0,255,0);
+
+	font-size: 16px;
+
+	position: relative;
+	left: 0vw;
+}
+button{
+	position: relative;
+	top: -8vh;
+
+	border: 0.2vw solid white;
+	border-radius: 50%;
+
+	background-color: rgba(0,0,0,0);
+	color: white;
+
+	width: 6vw;
+	height: 12vh;
+
+	font-size: 22px;
+
+	transition: all 0.5s ease;
+
+	overflow: hidden;
+
+	outline: none;
+}
+button:hover{
+	cursor: pointer;
+
+	color: black;
+
+	border: none;
+}
+button::before{
+	content: "";
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+	height: 0%;
+
+	background: white;
+
+	z-index: -1;
+
+	transition: all 0.8s ease;
+}
+button:hover::before{
+	height: 180%;
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+	button{
+		width: 7vw;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+	button{
+		width: 7.5vw;
+	}
+}
+@media (min-width: 960px) and (max-width: 1000px){
+	button{
+		width: 7.8vw;
+	}
+}
+@media (min-width: 900px) and (max-width: 960px){
+	button{
+		width: 8.5vw;
+	}
+}
+@media (min-width: 800px) and (max-width: 900px){
+	button{
+		width: 9.5vw;
+	}
+}
+@media (min-width: 750px) and (max-width: 800px){
+	button{
+		width: 10vw;
+	}
+}
+@media (min-width: 700px) and (max-width: 750px){
+	button{
+		width: 11vw;
+	}
+}
+
+@media (min-width: 650px) and (max-width: 700px){
+	button{
+		width: 11.5vw;
+	}
+}
+@media (min-width: 625px) and (max-width: 650px){
+	button{
+		width: 12vw;
+	}
+}
+@media (min-width: 600px) and (max-width: 625px){
+	button{
+		width: 13vw;
+	}
+}
+@media (min-width: 560px) and (max-width: 600px){
+	button{
+		width: 13.5vw;
+	}
+}
+@media (min-width: 500px) and (max-width: 560px){
+	button{
+		width: 15vw;
+	}
+}
+@media (min-width: 480px) and (max-width: 500px){
+	button{
+		width: 16vw;
+	}
+}
+@media (min-width: 450px) and (max-width: 480px){
+	button{
+		width: 17vw;
+	}
+}
+@media (min-width: 420px) and (max-width: 450px){
+	button{
+		width: 18vw;
+	}
+}
+@media (min-width: 380px) and (max-width: 420px){
+	button{
+		width: 19vw;
+	}
+}
+@media (min-width: 340px) and (max-width: 380px){
+	button{
+		width: 21vw;
+		border: 0.4vw solid white;
+	}
+}
+@media (min-width: 0px) and (max-width: 340px){
+	button{
+		width: 23vw;
+		border: 0.5vw solid white;
+	}
+}
+
+
+input:focus {
+	background-color: #fff;
+}
+.cir{
+	position: absolute;
+	top: -1%;
+	left: -1.5%;
+
+	width: 100%;
+	height: 100%;
+
+	border-radius: 100%;
+	border: 0.4vw solid white;
+
+	animation: opa  4s linear 0s infinite;
+
+	z-index: -1;
+}
+@media (min-width: 1100px) and (max-width: 1200px){
+	.cir{	
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 960px) and (max-width: 1000px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 900px) and (max-width: 960px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 880px) and (max-width: 900px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+
+@media (min-width: 840px) and (max-width: 880px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 800px) and (max-width: 840px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 750px) and (max-width: 800px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 700px) and (max-width: 750px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 650px) and (max-width: 700px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 625px) and (max-width: 650px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 600px) and (max-width: 625px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 560px) and (max-width: 600px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 525px) and (max-width: 560px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 500px) and (max-width: 525px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 480px) and (max-width: 500px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 450px) and (max-width: 480px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 400px) and (max-width: 450px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 380px) and (max-width: 400px){
+	.cir{
+		top: -1%;
+		left: -1%;
+	}
+}
+@media (min-width: 0px) and (max-width: 380px){
+	.cir{
+		border: 0.6vw solid white;
+	}
+}
+.cirk{
+	position: absolute;
+	top: 10vh;
+	left: 3.5vw;
+
+	width: 5%;
+	height: 5%;
+
+	border: 0.2vw solid white;
+
+	border-radius: 50%;
+}
+
+@keyframes opa {
+	from{
+		transform: rotate(0deg) scale(1);
+	}
+	50%{
+		transform: rotate(180deg) scale(1.2);
+	}
+	to{
+		transform: rotate(360deg) scale(1);
+	}	
+};

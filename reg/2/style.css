@@ -10,6 +10,12 @@ html{
 
 	overflow: hidden;
 }
+@media screen and (max-width: 1280px){
+	html{
+		width: 100%;
+		height: 100%;
+	}
+}
 .container{
 	position: absolute;
 	display: inline-block;
@@ -29,134 +35,35 @@ html{
 
 	padding-top: 5vh;
 }
-@media (min-width: 1100px) and (max-width: 1200px){
+@media screen and (max-width: 1280px){
 	.container{
-		width: 42vw;
-	}
-}
-@media (min-width: 1000px) and (max-width: 1100px){
-	.container{
-		width: 43vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 960px) and (max-width: 1000px){
-	.container{
-		width: 48vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 900px) and (max-width: 960px){
-	.container{
-		width: 50vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 880px) and (max-width: 900px){
-	.container{
-		width: 55vw;
-		height: 73vh;
+		width: 100vw;
 	}
 }
 
-@media (min-width: 840px) and (max-width: 880px){
-	.container{
-		width: 55vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 800px) and (max-width: 840px){
-	.container{
-		width: 57vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 750px) and (max-width: 800px){
-	.container{
-		width: 60vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 700px) and (max-width: 750px){
-	.container{
-		width: 65vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 650px) and (max-width: 700px){
-	.container{
-		width: 70vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 625px) and (max-width: 650px){
-	.container{
-		width: 73vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 600px) and (max-width: 625px){
-	.container{
-		width: 75vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 560px) and (max-width: 600px){
-	.container{
-		width: 80vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 525px) and (max-width: 560px){
-	.container{
-		width: 85vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 500px) and (max-width: 525px){
-	.container{
-		width: 90vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 480px) and (max-width: 500px){
-	.container{
-		width: 95vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 450px) and (max-width: 480px){
-	.container{
-		width: 100vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 400px) and (max-width: 450px){
-	.container{
-		width: 105vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 380px) and (max-width: 400px){
-	.container{
-		width: 100vw;
-		height: 70vh;
-	}
-}
-@media (min-width: 0px) and (max-width: 380px){
-	.container{
-		width: 100vw;
-		height: 70vh;
-
-		border: 0.7vw solid white;
-	}
-}
 .reg{
 	color: rgba(255,255,255);
+}
+@media screen and (max-width: 1280px){
+	.reg{
+		font-size: 90px;
+	}
 }
 h4{
 	font-size: 18px;
 	color: rgba(255,255,255,0.8);
+}
+@media screen and (max-width: 1280px){
+	h4{
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+
+		font-size: 55px;
+
+		width: 100vw;
+	}
 }
 .years{
 	position: relative;
@@ -164,6 +71,16 @@ h4{
 
 	font-size: 14px;
 	color: rgba(255,255,255,0.6);
+}
+@media screen and (max-width: 1280px){
+	.years{
+		font-size: 45px;
+
+		position: absolute;
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
 }
 input{
 	width: 21vw;
@@ -180,98 +97,14 @@ input{
 
 	background-color: rgba(255,255,255,0.5);
 }
-@media (min-width: 1100px) and (max-width: 1200px){
+@media screen and (max-width: 1280px){
 	input{
-		width: 31vw;
+		width: 70vw;
+
+		font-size: 45px;
 	}
-}
-@media (min-width: 1000px) and (max-width: 1100px){
-	input{
-		width: 31vw;
-		height: 5vh;
-	}
-}
-@media (min-width: 960px) and (max-width: 1000px){
-	input{
-		width: 31vw;
-		height: 5vh;
-	}
-}
-@media (min-width: 900px) and (max-width: 960px){
-	input{
-		width: 31vw;
-		height: 5vh;
-	}
-}
-@media (min-width: 880px) and (max-width: 900px){
-	input{
-		width: 31vw;
-		height: 5vh;
-	}
-}
-@media (min-width: 800px) and (max-width: 880px){
-	input{
-		width: 31vw;
-	}
-}
-@media (min-width: 750px) and (max-width: 800px){
-	input{
-		width: 31vw;
-	}
-}
-@media (min-width: 700px) and (max-width: 750px){
-	input{
-		width: 41vw;
-	}
-}
-@media (min-width: 650px) and (max-width: 700px){
-	input{
-		width: 41vw;
-	}
-}
-@media (min-width: 600px) and (max-width: 650px){
-	input{
-		width: 41vw;
-	}
-}
-@media (min-width: 560px) and (max-width: 600px){
-	input{
-		width: 51vw;
-	}
-}
-@media (min-width: 500px) and (max-width: 560px){
-	input{
-		width: 51vw;
-	}
-}
-@media (min-width: 480px) and (max-width: 500px){
-	input{
-		width: 51vw;
-	}
-}
-@media (min-width: 450px) and (max-width: 480px){
-	input{
-		width: 51vw;
-	}
-}
-@media (min-width: 420px) and (max-width: 450px){
-	input{
-		width: 51vw;
-	}
-}
-@media (min-width: 380px) and (max-width: 420px){
-	input{
-		width: 61vw;
-	}
-}
-@media (min-width: 340px) and (max-width: 380px){
-	input{
-		width: 61vw;
-	}
-}
-@media (min-width: 0px) and (max-width: 340px){
-	input{
-		width: 61vw;
+	form{
+		margin-top: 12vh; 
 	}
 }
 
@@ -333,101 +166,21 @@ button::before{
 button:hover::before{
 	height: 180%;
 }
-@media (min-width: 1100px) and (max-width: 1200px){
+@media screen and (max-width: 1280px){
 	button{
-		width: 7vw;
-	}
-}
-@media (min-width: 1000px) and (max-width: 1100px){
-	button{
-		width: 7.5vw;
-	}
-}
-@media (min-width: 960px) and (max-width: 1000px){
-	button{
-		width: 7.8vw;
-	}
-}
-@media (min-width: 900px) and (max-width: 960px){
-	button{
-		width: 8.5vw;
-	}
-}
-@media (min-width: 800px) and (max-width: 900px){
-	button{
-		width: 9.5vw;
-	}
-}
-@media (min-width: 750px) and (max-width: 800px){
-	button{
-		width: 10vw;
-	}
-}
-@media (min-width: 700px) and (max-width: 750px){
-	button{
-		width: 11vw;
-	}
-}
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 
-@media (min-width: 650px) and (max-width: 700px){
-	button{
-		width: 11.5vw;
-	}
-}
-@media (min-width: 625px) and (max-width: 650px){
-	button{
-		width: 12vw;
-	}
-}
-@media (min-width: 600px) and (max-width: 625px){
-	button{
-		width: 13vw;
-	}
-}
-@media (min-width: 560px) and (max-width: 600px){
-	button{
-		width: 13.5vw;
-	}
-}
-@media (min-width: 500px) and (max-width: 560px){
-	button{
-		width: 15vw;
-	}
-}
-@media (min-width: 480px) and (max-width: 500px){
-	button{
-		width: 16vw;
-	}
-}
-@media (min-width: 450px) and (max-width: 480px){
-	button{
-		width: 17vw;
-	}
-}
-@media (min-width: 420px) and (max-width: 450px){
-	button{
-		width: 18vw;
-	}
-}
-@media (min-width: 380px) and (max-width: 420px){
-	button{
-		width: 19vw;
-	}
-}
-@media (min-width: 340px) and (max-width: 380px){
-	button{
-		width: 21vw;
-		border: 0.4vw solid white;
-	}
-}
-@media (min-width: 0px) and (max-width: 340px){
-	button{
-		width: 23vw;
-		border: 0.5vw solid white;
-	}
-}
+		width: 250px;
+		height: 13.5vh;
 
+		font-size: 60px;
 
+		border: 0.8vw solid white;
+	}
+}
 input:focus {
 	background-color: #fff;
 }

@@ -366,6 +366,9 @@ section{
 	h4{
 		font-size: 30px;
 	}
+	.toptx,.info,.vk,h4{
+		font-weight: lighter;
+	}
 }
 .info:hover, .vk:hover{
 	color: black;

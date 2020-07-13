@@ -57,12 +57,13 @@ body{
 }
 
 .but{
-	font-size: 20px;
+	font-size: 40px;
 
 	width: 160px;
 	height: 90px;
 	
 	margin: auto;
+	padding-top: 15px;
 
 	background-color: #fff;
 	border-color: #fff;
@@ -74,11 +75,13 @@ body{
 .but:hover{
 	border-radius: 50%;
 
-	font-size: 40px;
+	font-size: 60px;
+
+	padding-top: 5px;
 }
 @media screen and (max-width: 1280px){
 	.but{
-		font-size: 50px;
+		font-size: 80px;
 
 		width: 30vw;
 		height: 10vh;
@@ -87,10 +90,12 @@ body{
 		top: 120%;
 		left: 50%;
 
+		padding-top: 30px;
+
 		transform: translate(-50%,-50%);
 	}
 	.but:hover{
-		font-size: 100px;
+		font-size: 120px;
 	}
 }
 
